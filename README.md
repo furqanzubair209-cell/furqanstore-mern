@@ -450,21 +450,6 @@ See [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md) for more.
 
 ---
 
-## ⚠️ Known Limitations
-
-These reflect what the code does today, not planned promises:
-
-- Stripe is restricted to test keys, and orders are created in PKR.
-- Product images are plain URLs (`imageUrl`); there is no upload feature.
-- `rating` and `reviews` on a product are stored values; there is no review submission model.
-- No email notifications. Notifications are in-app and over sockets only.
-- No order status history; only the current status is stored.
-- Order totals have no tax or shipping charge (the UI shows shipping as free).
-- `SUPER_ADMIN` and `ADMIN` have identical permissions.
-- Admin order list returns the 100 most recent orders.
-- No `.env.example`, `LICENSE` or CI workflow in the repository yet.
-
----
 
 ## 🤝 Contributing
 
